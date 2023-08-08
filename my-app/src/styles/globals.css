@@ -4,8 +4,24 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  /* --background-start-rgb: 214, 219, 220; */
   --background-end-rgb: 255, 255, 255;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 5em;
+  background-color: #333;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5em;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 @media (prefers-color-scheme: dark) {
